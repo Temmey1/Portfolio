@@ -5,16 +5,17 @@ import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
 
-
 function App() {
   return (
-    <div>
+    <div className="w-full bg-[#0a192f] ">
       <Navbar />
-      <Home />
-      <About />
-      <Skills />
-      <Work />
-      <Contact />
+      <div className=" flex flex-col justify-center">
+        <Home />
+        <About />
+        <Skills />
+        <Work />
+        <Contact />
+      </div>
     </div>
   );
 }
