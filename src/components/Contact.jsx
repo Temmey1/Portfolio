@@ -14,8 +14,13 @@ const Contact = () => {
               Contact
             </p>
             <p className="text-gray-300 py-4">
-              Submit the form below or shoot me an email -
-              harrisontimothy1024@gmail.com
+              Submit the form below or shoot me an email —&nbsp;
+              <a
+                href="mailto:harrisontimothy1024@gmail.com?subject=Collaboration%20Opportunity&body=Hi%20Harrison%2C%0D%0A%0D%0AI%20came%20across%20your%20portfolio%20and%20was%20really%20impressed%20with%20your%20work.%20I%20would%20love%20to%20discuss%20a%20potential%20collaboration%20or%20project%20with%20you.%0D%0A%0D%0ALooking%20forward%20to%20hearing%20from%20you.%0D%0A%0D%0ABest%20regards%2C%0D%0A"
+                className="text-pink-500 hover:underline"
+              >
+                harrisontimothy1024@gmail.com
+              </a>
             </p>
           </div>
           <input
