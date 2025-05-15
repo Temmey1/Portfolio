@@ -10,7 +10,7 @@ export const data = [
     id: 1,
     name: "Admin Dashboard",
     image: adminDashboard,
-    live: "https://loan-mngt.vercel.app/",
+    // live: "https://loan-mngt.vercel.app/",
   },
   {
     id: 2,
