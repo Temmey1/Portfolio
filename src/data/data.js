@@ -26,7 +26,7 @@ export const data = [
   },
   {
     id: 4,
-    name: "React JS Application",
+    name: "IpTracker",
     image: iptracker,
     live: "https://ip-address-tracker-8ppl.vercel.app/",
   },
